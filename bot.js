@@ -35,8 +35,8 @@ var channel = "515847649484865543";
 })
 
 client.on('ready', async() => {
-var server = "515847649484865539"; 
-var channel = "499933149573283862";
+var server = "512611319640227851"; 
+var channel = "518302207632867378";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
     },86400);
